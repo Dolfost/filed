@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+#include "functions.cpp"
+
 int main(int argc, char** argv) {
   
   signed char* option = (signed char*)malloc(sizeof(signed char));
