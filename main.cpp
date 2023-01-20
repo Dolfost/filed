@@ -16,6 +16,8 @@ int main(int argc, char** argv) {
   long double filesize = 0;
   char* filesizeunits = (char*)malloc(3*sizeof(char));
 
+  opterr = 0;
+
   while ((*option = getopt(argc, argv, ":?sf:hv")) != -1) {
     switch (*option) {
       case 'h': {
